@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NotFoundComponent } from './not-found/not-found.component';
+import { NotFoundComponent } from './core/not-found/not-found.component';
 
 const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./routes/auth/auth.module').then((m) => m.AuthModule),
+      import('./modules/auth/auth.module').then((m) => m.AuthModule),
   },
   {
     path: 'admin',
     loadChildren: () =>
-      import('./routes/admin/admin.module').then((m) => m.AdminModule),
+      import('./modules/admin/admin.module').then((m) => m.AdminModule),
   },
   {
     path: 'user',
     loadChildren: () =>
-      import('./routes/user/user.module').then((m) => m.UserModule),
+      import('./modules/user/user.module').then((m) => m.UserModule),
   },
   { path: '**', component: NotFoundComponent },
 ];

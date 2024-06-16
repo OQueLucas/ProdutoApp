@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AdminModule } from './routes/admin/admin.module';
-import { UserModule } from './routes/user/user.module';
+import { AdminModule } from './modules/admin/admin.module';
+import { UserModule } from './modules/user/user.module';
 import { SharedModule } from './shared/shared.module';
-import { NotFoundComponent } from './not-found/not-found.component';
+import { NotFoundComponent } from './core/not-found/not-found.component';
 
 @NgModule({
   declarations: [AppComponent, NotFoundComponent],
