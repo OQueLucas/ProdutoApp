@@ -1,0 +1,45 @@
+nav.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0073e6;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.logo {
+  width: 75px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.search {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-icone {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.perfil {
+  width: 25px;
+  height: 25px;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.form-inline {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
