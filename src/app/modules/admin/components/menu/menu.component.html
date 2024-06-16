@@ -16,16 +16,26 @@
       />
     </form>
 
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav flex-grow-1">
+    <div class="navbar-collapse collapse navbar-control">
+      <ul class="navbar-nav nav-menu">
         <li class="nav-item">
-          <a class="nav-link" routerLink="produtos">Produtos</a>
+          <a
+            class="nav-link"
+            routerLink="produtos"
+            [routerLinkActive]="['active']"
+            >Produtos</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="fornecedores">Fornecedores</a>
+          <a
+            class="nav-link"
+            routerLink="fornecedores"
+            [routerLinkActive]="['active']"
+            >Fornecedores</a
+          >
         </li>
       </ul>
-      <ul class="navbar-nav flex-grow-1">
+      <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link"
             ><img
