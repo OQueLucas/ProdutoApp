@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Articles References
+
+This example was based on the following articles:
+https://www.tektutorialshub.com/angular/angular-folder-structure-best-practices/
+https://medium.com/@motcowley/angular-folder-structure-d1809be95542
+https://www.devbyseb.com/article/best-practices-for-angular-app-development-folder-structure-naming-lazy-loading-and-more
