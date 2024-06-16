@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AdminComponent } from './admin/admin.component';
+import { AdminHeaderComponent } from './admin-header/admin-header.component';
 import { AdminRoutes } from './admin.routing';
 import { ProdutosComponent } from './pages/produtos/produtos.component';
 import { ProdutosDetailsComponent } from './pages/produtos/produtos-details/produtos-details.component';
@@ -10,7 +10,7 @@ import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
-    AdminComponent,
+    AdminHeaderComponent,
     ProdutosComponent,
     ProdutosDetailsComponent,
     FornecedoresComponent,

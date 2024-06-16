@@ -1,12 +1,12 @@
 import { Routes, RouterModule } from '@angular/router';
-import { AdminComponent } from './admin/admin.component';
+import { AdminHeaderComponent } from './admin-header/admin-header.component';
 import { ProdutosComponent } from './pages/produtos/produtos.component';
 import { FornecedoresComponent } from './pages/fornecedores/fornecedores.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: AdminComponent,
+    component: AdminHeaderComponent,
     children: [
       {
         path: 'produtos',

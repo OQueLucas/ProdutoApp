@@ -1,11 +1,11 @@
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { UserHeaderComponent } from './user-header/user-header.component';
 import { ProdutosComponent } from './pages/produtos/produtos.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: UserHeaderComponent,
     children: [
       {
         path: 'produtos',
@@ -15,7 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    component: HomeComponent,
+    component: UserHeaderComponent,
   },
 ];
 
